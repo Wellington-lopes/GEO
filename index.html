@@ -1,28 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GEO</title>
     <link rel="stylesheet" href="./style.css">
     <script src="./script.js" defer></script>
+    
 </head>
+
 <body>
     <main>
-        <h1>Bem Vindo ao GEO</h1>
-        <div>
+        <div class="left">
+            <h1>Faça Login e Utilize o GEO</h1>
             <img src="" alt="">
         </div>
-        <div>
+
+        <div class="right">
             <h2>LOGIN</h2>
-            <input type="text">
-            <input type="number">
-            
+
+            <div class="card">
+                <div class="textfield">
+                    <label for="usuario">Usuário:</label>
+                    <input id="usuario" type="text" placeholder="Usuário">
+                </div>
+
+                <div class="textfield">
+                    <label for="senha">Senha:</label>
+                    <input id="senha" type="password" placeholder="Senha">
+                </div>
+                
+                <button class="btn-login">LOGIN</button>
+            </div>
         </div>
+
     </main>
     <footer>
-
     </footer>
 </body>
-</html>
 
+</html>
