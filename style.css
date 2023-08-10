@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans:wght@400;700&family=Roboto+Mono:wght@400;500;700&family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background: #201b2c;
+    display: flex;
+    /*Eixo x*/
+    justify-content: center;
+    /*Eixo*/
+    align-items: center;
+}
+
+.left{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.left > h1{
+    color: #77FFC0;
+}
+
+.right{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+} 
+
+.card > h1{
+    color: #77FFC0;
+    font-weight: 800;
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px 0px;    
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 30px #00000056;
+    outline: none;
+    border: 2px solid transparent;
+}
+
+.textfield > input::placeholder{
+    color: #acafafde;
+}
+
+input:focus{
+    border-color: #77ffc0;
+}
+
+img{
+    max-height: 800px;
+}
+
+button{
+    width: 100%;
+    background-color: #77FFC0;
+    color: #2b134b;
+    padding: 6px;
+    border: none;
+    margin: 5px;
+    border-radius: 15px;
+    font-weight: 800;
+    outline: none;
+    letter-spacing: 4px;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00000052;
+}
+
+.btn-login:hover{
+    transition: background 1s;
+    background: #56d65d;
+}
+
+footer{
+    background: #201b2c;
+    display: flex;
+    padding: 3px;
+    color: #514869;
+    justify-content: end;
+    width: 100vw;
+}
+
+
+
