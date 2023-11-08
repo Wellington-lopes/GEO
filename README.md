@@ -19,13 +19,6 @@ The GEO Login Page consists of the following key components:
 3. **Footer:**
    - **Copyright:** Displays the copyright information, including the author's name and attribution.
 
-### Functionality
-The GEO Login Page has the following functionality:
-
-- Users can input their username and password.
-- When the "LOGIN" button is clicked, it initiates the login process (JavaScript required).
-- The page includes a script (`script.js`) that handles the login functionality (not provided in the documentation, as it's in the associated `script.js` file).
-
 ### Author
 Wellington Lopes
 
